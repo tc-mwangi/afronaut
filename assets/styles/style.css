@@ -1571,7 +1571,7 @@ iframe {
 .section_half-bg::after,
 .section_half-bg::before {
     content: '';
-    background-color: #4224FB;
+    background-color: #070707;
     position: absolute;
     top: 0;
     right: 0;
