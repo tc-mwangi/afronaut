@@ -574,7 +574,7 @@ a.link_decoration {
 }
 
 .title_h2 {
-    font-size: 3.1428rem;
+    font-size: 5rem;
     margin-bottom: 3.4rem
 }
 
@@ -602,7 +602,8 @@ a.link_decoration {
 
 .title_h4 {
     font-size: 2rem;
-    margin-bottom: 2.28rem
+    margin-bottom: 2.28rem;
+    color: #070707;
 }
 
 .title_h5 {
@@ -945,7 +946,7 @@ iframe {
 }
 
 .loading {
-    background: #E0E0E0;
+    background: #070707;
     position: fixed;
     top: 0;
     left: 0;
@@ -983,7 +984,7 @@ iframe {
 }
 
 .loading-wrap .logotype {
-    width: 10rem
+    width: 40rem
 }
 
 .navbar {
