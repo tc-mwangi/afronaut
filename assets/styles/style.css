@@ -5,6 +5,7 @@
 /* End Imports */
 
 /* Custom Fonts */
+/* Cera Pro */
 @font-face {
     font-family: 'Cera Pro';
     src: url('CeraPro-Thin.woff2') format('woff2'),
@@ -101,7 +102,30 @@
     font-style: italic;
 }
 
+/* GT Walsheim */
+
+
 /* End Custom Fonts */
+
+/* landing */
+#landing{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #4224FB;
+}
+
+/* work */
+#projects{
+    color: #4224FB;
+    font-size: 80px;
+    font: outline; 
+}
+
+/* menu */
+#menu{
+    color: #070707;
+    font-size: 30px;
+    font: outline; 
+}
 
 
 .btn,
@@ -1977,7 +2001,8 @@ iframe {
     padding: 3rem 2.14rem;
     position: relative;
     transition: padding .6s cubic-bezier(.455, .03, .515, .955);
-    width: auto
+    width: auto;
+    background-color: #4224fb;
 }
 
 @media only screen and (max-width:992px) {
@@ -2354,6 +2379,8 @@ iframe {
     right: 0;
     width: 100%;
     z-index: 0
+    
+    
 }
 
 @media only screen and (max-width:768px) {
@@ -2625,7 +2652,7 @@ iframe {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -moz-box;
-    background-color: #fff
+    background-color: #4224FB;
 }
 
 .viewer-container__image .bg {
